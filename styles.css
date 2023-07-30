@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 40px;
+}
+.text-left{
+    background: linear-gradient(to right, #0D423D,#0CC7B5);
+    color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gainsboro;
+}
+.buttons .btn1{
+    width: 150px;
+    margin-top: 15px;
+}
+.nav-item .btn{
+    background-color: orange;
+    width: 150px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.left-part{
+    background-color:#009688 ;
+    color: #fff;
+    /* padding: 50px; */
+    border-radius: 10px;
+}
+.left-part h1{
+    font-size: 20px;
+    text-align: center;
+}
+.right-part{
+    border: 1px solid #009688;
+    border-radius: 10px;
+}
+.col-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.text{
+    border: 1px solid #009688;
+    border-radius: 15px;
+}
+/* diplome */
+.diplomes{
+    background-color: #F44336;
+    color: #fff;
+}
+
+footer{
+    background-color: #009688;
+    color: #fff;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+.cours-img{
+    width: 88px;
+}
+.logo{
+    width: 100px;
+    height: 70.45px;
+}
+.btn{
+    width: 100px;
+    background-color: #F44336;
+    color: #fff;
+}
+.the-coachs{
+    border: 1px solid #009688;
+}
+.activities{
+    background-color: #F44336;
+    color: #fff;
+}
+.Ellipse{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.Ellipse img{
+    width: 20px;
+}
+.footer{
+    position: relative;
+}
+.copyright{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    color: #fff;
+}
+@media screen and (max-width:772px){
+    .part{
+        flex-direction: column-reverse;
+    }
+   .formation{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .row1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .footer{
+    text-align: center;
+   }
+   .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .copyright{
+    position: static;
+    text-align: center;
+   }
+   .container{
+    padding: 12px;
+   }
+  
+}
+/* .activities{
+    background-image: url('images/Vector\ \(10\).png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    /* background-position: center; */
+} */
+
+/* .text1{
+    border: 1px solid #009688;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+.text-2{
+    background-color: #009688;
+    
+}
+.btn-text{
+    background-color: red;
+    color: #fff;
+    width: 50%;
+}
+.left{
+    background-color: #009688;
+    border-radius: 10px;
+}
+.left h1{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.right{
+    border: 1px solid #009688;
+    background-color: #fff;
+    border-radius: 10px;
+ 
+   
+}
+.one{
+    display: flex;
+    align-items: center;
+}
+.one h5{
+    color: #fff;
+}
+.red{
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+.green{
+    border: 1px solid #009688;
+    text-align: center;
+}
+.yellow{
+    border: 1px solid orange;
+    text-align: center;
+}
+.col-lg-3{
+    border: 1px solid;
+   
+} */
+
+
+
